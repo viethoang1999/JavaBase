@@ -12,6 +12,9 @@ public class Sochinhphuong {
         System.out.println("Nhập vào cần kiểm tra: ");
         int n = scanner.nextInt();
         scanner.nextLine();
+        if (n<=0){
+            System.out.println(n+" Không là số chính phương");
+        }
         float x = (float) Math.sqrt(n);
         if (x == (int) x) {
             System.out.println(n + " là số chính phương");
