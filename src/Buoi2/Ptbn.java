@@ -24,7 +24,7 @@ public class Ptbn {
                     System.out.println("pt vô nghiệm");
                 }
             } else {
-                float x = (float) -b / c;
+                float x = (float) -c/ b;
                 System.out.println("Phương trình có nghiệm duy nhất: " + x);
             }
         } else {

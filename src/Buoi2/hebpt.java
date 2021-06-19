@@ -22,9 +22,9 @@ public class hebpt {
         int Dy=a*f-d*c;
         if(D==0){
             if(Dx+Dy== 0){
-                System.out.println("Phương trình vô nghiệm");
+                System.out.println("Phương trình vô  số nghiệm");
             }else {
-                System.out.println("Phương trình vô số nghiệm");
+                System.out.println("Phương trình vô nghiệm");
             }
         }else {
             int x=Dx/D;

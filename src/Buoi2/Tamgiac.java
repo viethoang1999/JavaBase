@@ -18,7 +18,7 @@ public class Tamgiac {
             System.out.println("Đây là tam giác");
             if ((a * a == b * b + c * c) || (b * b == a * a + c * c) || (c * c == a * a + b * b)) {
                 System.out.println("Đây là tam giác vuông!");
-            } else if ((a == b) && (a == c) && (b == c)) {
+            } else if (a == b && a == c && b == c) {
                 System.out.println("Đây là tam giác đều");
 
             } else if ((a == b) || (b == c) || (a == c)) {
@@ -28,6 +28,7 @@ public class Tamgiac {
             }
         } else {
             System.out.println("Đây ko phải là tam giác");
+            return;
         }
     }
 }
