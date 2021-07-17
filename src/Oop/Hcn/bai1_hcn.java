@@ -1,4 +1,4 @@
-package Oop;
+package Oop.Hcn;
 
 import java.util.Scanner;
 

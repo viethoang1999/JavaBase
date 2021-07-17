@@ -1,4 +1,4 @@
-package Oop;
+package Oop.SinhVien;
 
 import java.util.Scanner;
 

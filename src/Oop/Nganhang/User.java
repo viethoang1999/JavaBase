@@ -47,20 +47,20 @@ public class User {
     public void setTientrongtaikhoan(double tientrongtaikhoan) {
         this.tientrongtaikhoan = tientrongtaikhoan;
     }
-    public void nhap(int[]a,int n){
-        for (int i=0;i<n;i++){
-            System.out.println("So tai khoan: ");
-            sotaikhoan=sc.nextLong();
-            sc.nextLine();
-            System.out.println("Ten tai khoan: ");
-            tentaikhoan=sc.nextLine();
-            setTientrongtaikhoan(50000);
-        }
+
+    public void nhap() {
+        System.out.println("So tai khoan: ");
+        sotaikhoan = sc.nextLong();
+        sc.nextLine();
+        System.out.println("Ten tai khoan: ");
+        tentaikhoan = sc.nextLine();
+        setTientrongtaikhoan(50000);
     }
-    public void xuat(int[]a,int n){
-        System.out.println("So tai khoan: "+sotaikhoan);
-        System.out.println("Ten tai khoan: "+tentaikhoan);
-        System.out.println("Tien trong tk: "+tientrongtaikhoan);
+
+    public void xuat() {
+        System.out.println("So tai khoan: " + sotaikhoan);
+        System.out.println("Ten tai khoan: " + tentaikhoan);
+        System.out.println("Tien trong tk: " + tientrongtaikhoan);
     }
 
     public double naptien() {
@@ -70,6 +70,7 @@ public class User {
         if (nap > 0) {
             tientrongtaikhoan += nap;
             System.out.println("bạn vừa nạp " + nap + " vào số tài khoản");
+            System.out.println("Số tiền trong tk: "+tientrongtaikhoan);
         } else {
             System.out.println("số tiền nạp không hợp lệ");
         }
@@ -84,14 +85,16 @@ public class User {
         if (rut > 0) {
             tientrongtaikhoan -= (rut + phi);
             System.out.println("bạn vừa rút " + rut + " ra khỏi tài khoản");
+            System.out.println("Số tền trong tk: "+tientrongtaikhoan);
         } else {
             System.out.println("Số tiền rút không hợp lệ");
         }
         return rut;
     }
-    public double daohan(){
-        tientrongtaikhoan+=tientrongtaikhoan*TIENLAI;
-        System.out.println("Bạn đk"+tientrongtaikhoan+" từ đáo hạn 1 tháng");
+
+    public double daohan() {
+        tientrongtaikhoan += tientrongtaikhoan * TIENLAI;
+        System.out.println("Bạn đk" + tientrongtaikhoan + " từ đáo hạn 1 tháng");
         return tientrongtaikhoan;
 
     }

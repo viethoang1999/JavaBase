@@ -1,4 +1,6 @@
-package Oop;
+package Oop.Hcn;
+
+import Oop.Hcn.bai1_hcn;
 
 public class Test {
     public static void main(String[] args) {

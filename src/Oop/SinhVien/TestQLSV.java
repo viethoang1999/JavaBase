@@ -1,4 +1,6 @@
-package Oop;
+package Oop.SinhVien;
+
+import Oop.SinhVien.QuanLySV;
 
 public class TestQLSV {
     public static void main(String[] args) {
