@@ -24,18 +24,16 @@ public class TestQLDyxe {
                     xe[i] = new QLdangkyxe();
                     xe[i].nhap();
                     xe[i].xuat();
+                    float s=xe[i].thuephainop();
+                    System.out.println(s);
+                    String s1=xe[i].toString();
+                    System.out.println(s1);
                 }
                 break;
             }
-            case 2: {
-                System.out.println("Ke khai tien thue ");
-                for (int i = 0; i < n; i++) {
-                    xe[i].thuephainop();
-
-                }
-                break;
+            default:{
+                System.out.println("bye");
             }
-
         }
     }
 }
