@@ -14,6 +14,9 @@ public class Lesson352 {
             if (i < min){
                 min = i;
             }
+            if (n==0){
+                break;
+            }
             n /= 10;
         }
         System.out.println(min);

@@ -9,7 +9,7 @@ public class Lesson335 {
         System.out.println("Nhập n: ");
         int n=scanner.nextInt();
         float sum=0;
-        for (int i=1;i<=n;i++){
+        for (int i=1;i>1;i--){
             sum=(float) Math.sqrt(i+sum);
         }
         System.out.println("Tổng của S(n): "+sum);

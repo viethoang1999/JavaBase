@@ -1,2 +1,4 @@
-package DeQui;public class DeQui {
+package DeQui;
+
+public class DeQui {
 }

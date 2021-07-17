@@ -13,6 +13,6 @@ public class Lesson341 {
         for (int i=2;i<=n;i++){
             sum=  (float) (1+ 1.0/sum);
         }
-        System.out.println("Sum: "+sum);
+        System.out.println ("Sum: "+sum);
     }
 }

@@ -1,4 +1,4 @@
-package Lietke;
+package Mang.Lietke;
 
 import java.util.Scanner;
 
