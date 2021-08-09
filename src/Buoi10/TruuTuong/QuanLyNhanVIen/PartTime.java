@@ -26,17 +26,17 @@ public class PartTime extends Employee {
 
     @Override
     public long getMealAllowance() {
-        return 0;
+        return (long) MEAL_ALLOWANCE;
     }
 
     @Override
     public long getSalary() {
-        return 0;
+        return baseSalary;
     }
 
     @Override
     public long getWorkingCount() {
-        return 0;
+        return totalWorkingShift;
     }
 
     @Override

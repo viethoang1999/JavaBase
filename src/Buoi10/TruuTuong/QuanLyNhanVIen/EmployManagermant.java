@@ -35,7 +35,7 @@ public class EmployManagermant {
 
     public Employee maxSalaryRate() {
         Employee max = employee[0];
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
 //            if (employee[i] instanceof FullTime) {
             if (max.getCalculateSalary() < employee[i].getCalculateSalary()) {
                  employee[i]=max;
@@ -47,7 +47,7 @@ public class EmployManagermant {
 
     public Employee minSalaryRate() {
         Employee min = employee[0];
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
 //            if (employee[i] instanceof FullTime){
             if (min.getCalculateSalary() > employee[i].getCalculateSalary()) {
                  employee[i]=min;

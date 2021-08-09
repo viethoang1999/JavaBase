@@ -27,17 +27,18 @@ public class FullTime extends Employee {
 
     @Override
     public long getMealAllowance() {
-        return 0;
+
+        return (long) MEAL_ALLOWANCE;
     }
 
     @Override
     public long getSalary() {
-        return 0;
+        return dailySalary;
     }
 
     @Override
     public long getWorkingCount() {
-        return 0;
+        return totalWorkingDays;
     }
 
     @Override
